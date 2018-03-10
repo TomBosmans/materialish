@@ -1,2 +1,2 @@
 while developing run:
-sass --watch assets/stylesheets:public/stylesheets --style compressed
+sass --watch dev/stylesheets:public/stylesheets --style compressed
