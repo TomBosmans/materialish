@@ -10,6 +10,40 @@
     <link rel="stylesheet" href="stylesheets/style.css">
   </head>
   <body>
-    <h1>Hallo world</h1>
+    <h1>Materialish</h1>
+
+    <h2>Input fields</h2>
+
+    <div style="margin-left:auto;margin-right:auto;width:500px">
+      <div class='input-field'>
+	<input type="text" placeholder='text'/>
+	<label class='input-field__placeholder'>text</label>
+	<span class='input-field__info'>text info</span>
+      </div>
+
+      <div class='input-field'>
+	<input type="text" placeholder='text' disabled />
+	<label class='input-field__placeholder'>text</label>
+	<span class='input-field__info'>text disabled</span>
+      </div>
+
+      <div class='input-field'>
+	<input type="text" placeholder='text' required />
+	<label class='input-field__placeholder'>text</label>
+	<span class='input-field__info'>text required</span>
+      </div>
+
+      <div class='input-field'>
+	<textarea type="text" placeholder='text'></textarea>
+	<label class='input-field__placeholder'>text</label>
+	<span class='input-field__info'>text block</span>
+      </div>
+
+      <div class='input-field'>
+	<textarea type="text" placeholder='text' required></textarea>
+	<label class='input-field__placeholder'>text</label>
+	<span class='input-field__info'>text block required</span>
+      </div>
+    </div>
   </body>
 </html>
